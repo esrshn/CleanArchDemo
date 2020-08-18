@@ -1,0 +1,4 @@
+Add-Migration "InitialMigration" -Context ApplicationDbContext
+update-database
+Add-Migration "InitialMigration" -Context UniversityDbContext
+Update-Database -Context UniversityDBContext
