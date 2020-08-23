@@ -27,7 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure.Bus", "Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F9A2C8B5-CA17-4522-A31B-4088DA67A5BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infrastructure.Bus", "CleanArch.Infrastructure.Bus\CleanArch.Infrastructure.Bus.csproj", "{E5174F0F-3488-41A9-955C-585C7CB24E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infrastructure.Bus", "CleanArch.Infrastructure.Bus\CleanArch.Infrastructure.Bus.csproj", "{E5174F0F-3488-41A9-955C-585C7CB24E8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Domain.Core", "CleanArch.Domain.Core\CleanArch.Domain.Core.csproj", "{50C92337-FDE1-49F2-A08E-7AA9D269D8F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{E5174F0F-3488-41A9-955C-585C7CB24E8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5174F0F-3488-41A9-955C-585C7CB24E8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5174F0F-3488-41A9-955C-585C7CB24E8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C92337-FDE1-49F2-A08E-7AA9D269D8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C92337-FDE1-49F2-A08E-7AA9D269D8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C92337-FDE1-49F2-A08E-7AA9D269D8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C92337-FDE1-49F2-A08E-7AA9D269D8F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{02153D21-A9AE-4B28-AEA2-FA0158C711E0} = {A0FC7FA1-10A3-4045-9591-9C6DD07B8802}
 		{B5D80C54-2747-4E8D-995D-AF5190FBC69C} = {C1FED167-CC3B-4769-A90D-BAD1437FB13E}
 		{E5174F0F-3488-41A9-955C-585C7CB24E8F} = {E79AAEF3-0D5D-4B1D-A349-1CC5BF69D22D}
+		{50C92337-FDE1-49F2-A08E-7AA9D269D8F8} = {EE0E64E1-FEC2-47B4-BDE3-281CDC7B98E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {06EFC7EC-BB29-4DC6-BBE2-1BF1D1D27BDA}
